@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search By Name</title>
+    <link rel="icon" type="image/png" href="./assets/images/icon.png">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/stylesbn.css">
+</head>
+<body>
+    <header>
+        <img id="header-img" src="./assets/images/logo.png" alt="Header Image">
+        <a id="link" class="transparent-button" href="home.html">Home Page</a>
+        <a id="link" class="transparent-button" href="sbyroom.html">Show All</a>
+        <a id="link" class="transparent-button" href="filter.html">Filter</a>
+        <button id="sign-out-button">Sign Out</button>
+    </header>
+    <div class="content-container">
+        <div class="white-window">
+            <label class="labelst" for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label class="labelst" for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname">
+            <button id="search-button">Search</button>
+        </div>
+        <div id="results">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>Room ID</th>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Phone number</th>
+                        <th>Email</th>
+                        <th>Emergency Contact Name </th>
+                        <th>Emergency Contact Number</th>
+                        <th>Beginning of Contract</th>
+                        <th>End of Contract</th>
+                    </tr>
+                </thead>
+        <tbody>
+        </tbody>
+          </table>
+      
+    </div>
+</div>
+      <footer id="footer">
+        © <span id="current-year"></span> All rights reserved | Folè Residence
+    </footer>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+    <script src="assets/scripts/api_endpoints_dto.js"></script>
+    <script src="assets/scripts/signout.js"></script>
+    <script src="assets/scripts/searchbn.js"></script>
+</body>
+</html>

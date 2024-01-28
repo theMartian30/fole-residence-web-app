@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Building Plan</title>
+    <link rel="icon" type="image/png" href="./assets/images/icon.png">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/stylebp.css">
+</head>
+<body>
+    <header id="header1">
+        <img id="header-img" src="./assets/images/logo.png" alt="Header Image">
+        <a id="link" class="transparent-button" href="sbyname.html">Search by Name</a>
+        <a id="link" class="transparent-button" href="sbyroom.html">Show All</a>
+        <a id="link" class="transparent-button" href="filter.html">Filter</a>
+        <button type="submit" id="sign-out-button">Sign Out</button>
+    </header>
+    <div class="top-text">
+        <h1 id="buildingid"></h1>
+        <p>Zgjidh katin</p>
+        <button id="kati1-button" name= "k1" class="hover-button">
+        <span class="button-text">Kati 1</span>
+        </button> 
+        <button id="kati2-button" name= "k2" class="hover-button">
+            <span class="button-text">Kati 2</span>
+            </button> 
+        <button id="kati3-button" name= "k3" class="hover-button">
+                <span class="button-text">Kati 3</span>
+                </button> 
+        <button id="kati4-button" name= "k4" class="hover-button">
+                    <span class="button-text">Kati 4</span>
+                    </button> 
+        <button id="kati5-button" name= "k5" class="hover-button">
+                        <span class="button-text">Kati 5</span>
+                        </button> 
+        <button id="kati6-button" name= "k6" class="hover-button">
+                            <span class="button-text">Kati 6</span>
+                            </button> 
+        <button id="kati7-button" name= "k7" class="hover-button">
+                                <span class="button-text">Kati 7</span>
+                                </button> 
+        <button id="kati8-button" name= "k8" class="hover-button">
+                                    <span class="button-text">Kati 8</span>
+                                    </button> 
+    </div>
+    <footer id="footer">
+        © <span id="current-year"></span> All rights reserved | Folè Residence
+    </footer>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+    <script>
+        window.onload = function() {
+            loadBuildings();
+        };
+      </script>
+    <script src="assets/scripts/floors.js"></script>
+    <script src="assets/scripts/signout.js"></script>
+</body>
+</html>

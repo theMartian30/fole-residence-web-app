@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <link rel="icon" type="image/png" href="./assets/images/icon.png">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style_home.css">
+</head>
+<body>
+    <header id="header1">
+        <img id="header-img" src="./assets/images/logo.png" alt="Header Image">
+        <a id="link" class="transparent-button" href="sbyname.html">Search by Name</a>
+        <a id="link" class="transparent-button" href="sbyroom.html">Show All</a>
+        <a id="link" class="transparent-button" href="filter.html">Filter</a>
+        <button id="sign-out-button" href="login.html">Sign Out</button>
+    </header>
+    <div class="home-content">
+        <div class="background-image">
+            <button id="image1-button" name="A">Godina A</button> 
+            <button id="image2-button" name="B">Godina B</button> 
+            <button id="image3-button" name="C">Godina C</button>
+        </div>
+    </div>
+    <footer id="footer">
+        © <span id="current-year"></span> All rights reserved | Folè Residence
+    </footer>
+    <script src="assets/scripts/home.js"></script>
+    <script src="assets/scripts/locstorage.js"></script>
+    <script src="assets/scripts/signout.js"></script>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

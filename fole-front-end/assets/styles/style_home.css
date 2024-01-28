@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('../images/home.png');
+    background-size: 100% calc(100% - 40px); 
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: rgba(77, 200, 214, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 40px; 
+}
+
+#header-img {
+    animation: slide-in 1s ease-in-out;
+    max-width: 100%;
+    display: block;
+}
+
+#sign-out-button {
+    background: #272873;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#sign-out-button:hover {
+    background: #1A80C4;
+}
+
+.transparent-button {
+    color: #FFFFFF;
+    background: transparent;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.transparent-button:hover {
+    color: #6ca6cd;
+}
+
+#link {
+    text-decoration: none;
+}
+
+.home-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px; 
+}
+
+#image1-button {
+    background:transparent;
+    color: #ad2525;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 720px; 
+    height: 410px;
+    padding: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 64.5%; /* Position it in the center vertically */
+    left: 24%; /* Position it in the center horizontally */
+    transform: translate(-50%, -50%); /* Center the button */
+    z-index: 1; /* Ensure the button appears above the background image */
+    text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+}
+
+#image2-button {
+    background:transparent;
+    color: #ad2525;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 390px; 
+    height: 213px;
+    padding: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 67%; /* Position it in the center vertically */
+    left: 60%; /* Position it in the center horizontally */
+    transform: translate(-50%, -50%); /* Center the button */
+    z-index: 1; /* Ensure the button appears above the background image */
+    text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+}
+
+#image3-button {
+    background:transparent;
+    color: #ad2525;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 265px; 
+    height: 416px;
+    padding: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 63.5%; /* Position it in the center vertically */
+    left: 91.5%; /* Position it in the center horizontally */
+    transform: translate(-50%, -50%); /* Center the button */
+    z-index: 1; /* Ensure the button appears above the background image */
+    text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+}
+
+#image1-button:hover,
+#image2-button:hover,
+#image3-button:hover {
+    background: rgba(198, 199, 232, 0.4);
+    box-shadow: 0 0 100px #272873;
+}
+
+
+footer {
+    background: rgba(26, 128, 196, 0.9);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

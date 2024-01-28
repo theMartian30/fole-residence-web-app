@@ -1,0 +1,6 @@
+@Fole_Residence_BackEnd_HostAddress = http://localhost:5068
+
+GET {{Fole_Residence_BackEnd_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

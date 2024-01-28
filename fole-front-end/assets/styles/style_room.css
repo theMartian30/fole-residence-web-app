@@ -1,0 +1,262 @@
+body {
+    background: url('../images/back.png'); /* sets background image from path */
+    margin: 0; /* remove any default margin*/
+    padding: 0; /* remove any default padding */
+    font-family: Arial, sans-serif;
+    display: flex; /* make flex container */
+    flex-direction: column;
+    min-height: 100vh; /* body has a minimum height of 100% of the viewport height */
+}
+
+header {
+    background: rgba(77, 200, 214, 0.9); 
+    text-align: center;
+    padding: 10px;
+}
+
+#header-img {
+    animation: slide-in 1s ease-in-out;
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.room-container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px; 
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 50%; /* Adjust the width to make it half of the room-container */
+    max-height: 500px;
+    overflow: hidden;
+    border: 3px solid #ddd;
+    margin-right: 20px;
+    margin-top: 100px;
+    box-shadow: 0 0 30px #002646;
+    border-radius: 30px;
+}
+
+.table-container {
+    flex: 1;
+    /* box-shadow: 0 0 100px #002646; */
+    /* border-radius: 20px; */
+}
+
+footer {
+    background: rgba(26, 128, 196, 0.9);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.mySlides {
+    display: none;
+    width: 100%;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+/* Optional: Add some styles for the navigation dots/buttons */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #717171;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px;
+}
+
+.prev { left: 0; }
+.next { right: 0; }
+
+h1 {
+    text-align: center; /* Center the text horizontally within the h1 element */
+    color: #002646;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;  
+    border: 2px solid #002646;
+    background: rgba(255, 255, 255, 0.8);
+    padding-left: 5px;
+    border-radius: 10px;
+    box-shadow: 0 10px #002646;
+}
+
+h1:hover{
+    background: linear-gradient(to bottom, #ddd, #6d7dad); /* Change gradient on hover */
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgb(24, 3, 3);
+    border-radius: 10px;
+    
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: 100px;
+}
+tbody td {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 1px solid #fff; /* White border for separation */
+    color: #ffffff; /* Dark text color for contrast */
+  }
+  
+  /* Add hover effect on table rows */
+  tbody tr:hover td {
+    background: linear-gradient(to bottom, #ddd, #2c4182); /* Change gradient on hover */
+  }
+td {
+    border: 1px solid #FFFFFF;
+    
+    padding: 12px;
+    background:(45deg, #49a09d, #5f2c82);
+    color: #fff;
+    text-align: left;
+    width: 50%; /* Set width to 50% for equal columns */
+}
+
+/* Alternating background colors for rows */
+tr:nth-child(even) {
+    background-color:#AFBFD5;
+}
+
+tr:nth-child(odd) {
+    background-color: #6C8AB2; 
+}
+
+
+#empty-button {
+    position: absolute;
+    bottom: 110px; /* Adjust the distance from the bottom as needed */
+    right: 300px; /* Adjust the distance from the right as needed */
+    background: linear-gradient(to right, #434d97,#4DC8D6);
+    color: white;
+    border: none;
+    border-radius: 15%; 
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 150px; /* Adjust the button width */
+    height: 40px; /* Adjust the button height */
+    font-size: 16px; /* Adjust the font size */
+    font-weight: bold;
+}
+
+#empty-button:hover {
+    background:linear-gradient(to right, #1A80C4, #49a09d);
+    box-shadow: 0 0 10px #1A80C4;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+    gap: 10px; /* Adjust the gap between columns */
+}
+
+label {
+    grid-column: 1; /* Labels in the first column */
+    font-size: 16px; /* Adjust the font size */
+    color: #002646;
+    font-weight: bold;
+    background: whitesmoke;
+}
+
+input {
+    grid-column: 2; /* Inputs in the second column */
+    width: 100%; /* Make sure the inputs take up the full width of their column */
+    border: 1px solid #002646;
+    padding: 5px;
+}
+
+#fill-button {
+    position: absolute;
+    bottom: 200px; /* Adjust the distance from the bottom as needed */
+    right: 115px; /* Adjust the distance from the right as needed */
+    background: linear-gradient(to right, #434d97,#4DC8D6);
+    color: white;
+    border: none;
+    border-radius: 15%; 
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 150px; /* Adjust the button width */
+    height: 40px; /* Adjust the button height */
+    font-size: 16px; /* Adjust the font size */
+    font-weight: bold;
+}
+
+#fill-button:hover {
+    background:linear-gradient(to right, #1A80C4, #7dd4d1);
+    box-shadow: 0 0 10px #1A80C4;
+}
+
+.form-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid #002646;
+    outline: none; /* Remove the default outline */
+}

@@ -1,0 +1,294 @@
+body {
+    background: url('../images/building.png');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-size: 100% calc(100% - 40px); /* Set background size to cover all but the footer */
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative; 
+}
+
+
+header {
+    background: rgba(77, 200, 214, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 40px; /* Set a specific height for the header */
+}
+
+#header-img {
+    animation: slide-in 1s ease-in-out;
+    max-width: 100%;
+    display: block;
+}
+
+#sign-out-button {
+    background: #272873;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#sign-out-button:hover {
+    background: #1A80C4;
+}
+
+.transparent-button {
+    color: #FFFFFF;
+    background: transparent;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.transparent-button:hover {
+    color: #1A80C4;
+}
+
+#link {
+    text-decoration: none;
+}
+
+.top-text {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.top-text h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    color:#272873;
+}
+
+.top-text p {
+    font-size: 23px;
+    margin: 0;
+    color:#272873;
+}
+
+#kati1-button {
+    background:transparent;
+    color: #c66c22;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 646px; 
+    height: 4px;
+    top: 77%; /* Position it in the center vertically */
+    left: 49.8%; /* Position it in the center horizontally */
+    padding: 17px;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%, -50%); /* Center the button */
+    z-index: 1; /* Ensure the button appears above the background image */
+    text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+}
+
+#kati1-button:hover {
+    background: rgba(246, 158, 5, 0.4);
+}
+
+#kati2-button {
+    background:transparent;
+    color: #c66c22;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 646px; 
+    height: 4px;
+    top: 72%; /* Position it in the center vertically */
+    left: 49.8%; /* Position it in the center horizontally */
+    padding: 17px;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%, -50%); /* Center the button */
+    z-index: 1; /* Ensure the button appears above the background image */
+    text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+}
+
+#kati2-button:hover {
+    background: rgba(246, 158, 5, 0.4);
+
+}
+#kati3-button {
+    background:transparent;
+    color: #c66c22;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 646px; 
+    height: 4px;
+    top: 67%; /* Position it in the center vertically */
+    left: 49.8%; /* Position it in the center horizontally */
+    padding: 17px;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%, -50%); /* Center the button */
+    z-index: 1; /* Ensure the button appears above the background image */
+    text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+}
+
+#kati3-button:hover {
+    background: rgba(246, 158, 5, 0.4);
+}
+#kati4-button {
+    background:transparent;
+    color: #c66c22;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 646px; 
+    height: 4px;
+    top: 62%; /* Position it in the center vertically */
+    left: 49.8%; /* Position it in the center horizontally */
+    padding: 17px;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%, -50%); /* Center the button */
+    z-index: 1; /* Ensure the button appears above the background image */
+    text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+}
+
+#kati4-button:hover {
+    background: rgba(246, 158, 5, 0.4);
+}
+#kati5-button {
+    background:transparent;
+    color: #c66c22;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 646px; 
+    height: 4px;
+    top: 57%; /* Position it in the center vertically */
+    left: 49.8%; /* Position it in the center horizontally */
+    padding: 17px;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%, -50%); /* Center the button */
+    z-index: 1; /* Ensure the button appears above the background image */
+    text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+}
+
+#kati5-button:hover {
+    background: rgba(246, 158, 5, 0.4);
+}
+#kati6-button {
+    background:transparent;
+    color: #c66c22;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 646px; 
+    height: 4px;
+    top: 52%; /* Position it in the center vertically */
+    left: 49.8%; /* Position it in the center horizontally */
+    padding: 17px;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%, -50%); /* Center the button */
+    z-index: 1; /* Ensure the button appears above the background image */
+    text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+}
+
+#kati6-button:hover {
+    background: rgba(246, 158, 5, 0.4);
+}
+#kati7-button {
+    background:transparent;
+    color: #c66c22;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 646px; 
+    height: 4px;
+    top: 47%; /* Position it in the center vertically */
+    left: 49.8%; /* Position it in the center horizontally */
+    padding: 17px;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%, -50%); /* Center the button */
+    z-index: 1; /* Ensure the button appears above the background image */
+    text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+}
+
+#kati7-button:hover {
+    background: rgba(246, 158, 5, 0.4);
+}
+#kati8-button {
+    background:transparent;
+    color: #c66c22;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 646px; 
+    height: 10px;
+    top: 42%; /* Position it in the center vertically */
+    left: 49.8%; /* Position it in the center horizontally */
+    padding: 22px;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%, -50%); /* Center the button */
+    z-index: 1; /* Ensure the button appears above the background image */
+    text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+}
+
+#kati8-button:hover {
+    background: rgba(246, 158, 5, 0.4);
+}
+
+.button-text {
+    display: none; /* Initially hide the text */
+}
+
+.hover-button:hover .button-text {
+    display: inline; /* Display the text when the button is hovered */
+}
+
+footer {
+    background: rgba(26, 128, 196, 0.9);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10px 0;
+    position: absolute; 
+    bottom: 0; /* Stick the footer to the bottom */
+    width: 100%; /* Make the footer full-width */
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

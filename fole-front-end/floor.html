@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Floor Plan</title>
+    <link rel="icon" type="image/png" href="./assets/images/icon.png">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/stylefp.css">
+</head>
+<body>
+    <header id="header1">
+        <img id="header-img" src="./assets/images/logo.png" alt="Header Image">
+        <a id="link" class="transparent-button" href="sbyname.html">Search by Name</button>
+        <a id="link" class="transparent-button" href="sbyroom.html">Show All</button>
+        <a id="link" class="transparent-button" href="filter.html">Filter</a>
+        <button type="submit" id="sign-out-button">Sign Out</button>
+    </header>
+    <button id="onebedroom1-button" name= "1" class="hover-button">
+        <span class="button-text">Room 1</span>
+        </button> 
+    <button id="onebedroom2-button" name= "2" class="hover-button">
+        <span class="button-text">Room 2</span>
+        </button> 
+    <button id="doublestudio1-button" name= "3" class="hover-button">
+            <span class="button-text">Room 3</span>
+            </button> 
+     <button id="doublestudio2-button" name= "4" class="hover-button">
+            <span class="button-text">Room 4</span>
+            </button> 
+    <button id="singlestudio1-button" name= "5" class="hover-button">
+            <span class="button-text">Room 5</span>
+            </button> 
+    <button id="singlestudio2-button" name= "6" class="hover-button">
+             <span class="button-text">Room 6</span>
+            </button> 
+    <button id="twobedroom-button" name= "7" class="hover-button">
+             <span class="button-text">Room 7</span>
+             </button> 
+    <footer id="footer">
+        © <span id="current-year"></span> All rights reserved | Folè Residence
+    </footer>
+    <script src="assets/scripts/api_endpoints_dto.js"></script>
+    <script src="assets/scripts/floorplan.js"></script>
+    <script src="assets/scripts/signout.js"></script>
+    
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

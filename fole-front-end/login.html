@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="icon" type="image/png" href="./assets/images/icon.png">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style_login.css">
+</head>
+<body>
+    <header>
+        <img id="header-img" src="./assets/images/logo.png">
+    </header>
+    <div class="login-container">
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button type="submit" id="login-button">Login</button>
+        </form>
+    </div>
+    <footer id="footer">
+        © <span id="current-year"></span> All rights reserved | Folè Residence
+    </footer>
+    <script src="assets/scripts/login_script.js"></script>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

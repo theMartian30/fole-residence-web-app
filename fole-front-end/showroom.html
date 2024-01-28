@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Room</title>
+    <link rel="icon" type="image/png" href="./assets/images/icon.png">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style_room.css">
+</head>
+<body>
+    <header>
+        <img id="header-img" src="./assets/images/logo.png">
+    </header>
+    <div class="room-container">
+        <div class="slideshow-container">
+            <button class="prev" onclick="plusSlides(-1)">&#8249;</button>
+            <div class="mySlides">
+                <img id="img1" class="img" alt="Slide 1">
+            </div>
+            <div class="mySlides">
+                <img id="img2" class="img" src="assets/images/2.2.jpg" alt="Slide 2">
+            </div>
+            <div class="mySlides">
+                <img  id="img3" class="img" src="assets/images/2.3.jpg" alt="Slide 3">
+            </div>
+            <button class="next" onclick="plusSlides(1)">&#8250;</button>
+            <!-- Navigation dots/buttons -->
+            <div style="text-align: center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+        <div id="div1" class="table-container">
+                <h1 id="room-name"></h1>
+                <table id="room-table">
+                    <tr>
+                        <td>Name</td>
+                        <td id="tName"></td>
+                    </tr>
+                    <tr>
+                        <td>Surname</td>
+                        <td id="tSurname"></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td id="tEmail"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone number</td>
+                        <td id="tPhone"></td>
+                    </tr>
+                    <tr>
+                        <td>Emergency Contact Name</td>
+                        <td id="tEmergencyContactName"></td>
+                    </tr>
+                    <tr>
+                        <td>Emergency Contact Number</td>
+                        <td id="tEmergencyContactNumber"></td>
+                    </tr>
+                    <tr>
+                        <td>Beginning of Contract</td>
+                        <td id="tContractb"></td>
+                    </tr>
+                    <tr>
+                        <td>End of Contract</td>
+                        <td id="tContracte"></td>
+                    </tr>
+                </table>
+                <button id="empty-button" class="hover-button">Empty Room</button>
+        </div>     
+    <div id="div2" class="table-container" style="display:none;">
+        <h1 id="room-name1"></h1>
+        <div class="form-container"> 
+            <form id="room-form">
+
+                <label for="fname">Name:</label>
+                <input type="text" id="name" name="fname">
+                <span id="NameSpn"></span>
+
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" name="surname">
+                <span id="SurnameSpn"></span>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+                <span id="EmailSpn"></span>
+
+                <label for="phoneNr">Phone number:</label>
+                <input type="text" id="phone" name="phoneNr">
+                <span id="PhoneSpn"></span>
+
+                <label for="emergencyContactName">Emergency Contact Name:</label>
+                <input type="text" id="emergencyContactName" name="emergencyContactName">
+                <span id="EmergencyNameSpn"></span>
+
+                <label for="emergencyContactNumber">Emergency Contact Number:</label>
+                <input type="text" id="emergencyContactNumber" name="emergencyContactNumber">
+                <span id="EmergencyNumberSpn"></span>
+
+                <label for="contractb">Beginning of Contract:</label>
+                <input type="date" id="contractb" name="contractb">
+                <span id="BeginningSpn"></span>
+
+                <label for="contracte">End of Contract:</label>
+                <input type="date" id="contracte" name="contracte">
+                <span id="EndSpn"></span>
+
+
+                <button id="fill-button" class="hover-button">Fill Room</button>
+            </form>
+        </div>
+    </div>
+    </div>
+    <footer id="footer">
+        © <span id="current-year"></span> All rights reserved | Folè Residence
+    </footer>
+    <script src="assets/scripts/api_endpoints_dto.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/scripts/room.js"></script>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

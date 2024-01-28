@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Filter</title>
+    <link rel="icon" type="image/png" href="./assets/images/icon.png">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/stylefilter.css">
+</head>
+<body>
+    <header>
+        <img id="header-img" src="./assets/images/logo.png" alt="Header Image">
+        <a id="link" class="transparent-button" href="home.html">Home Page</a>
+        <a id="link" class="transparent-button" href="sbyname.html">Search by Name</a>
+        <a id="link" class="transparent-button" href="sbyroom.html">Show All</a>
+        <button id="sign-out-button">Sign Out</button>
+    </header>
+    <div class="centered-div">
+        <div class="white-window">
+            <label class="labelst" for="filter">Filter</label>
+            <label class="label1" for="filter">Building:</label>
+            <select id="buildingSelect">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select>
+            <label class="label1" for="filter">Floor:</label>
+            <select id="Floor">
+                <option value="1">Floor 1</option>
+                <option value="2">Floor 2</option>
+                <option value="3">Floor 3</option>
+                <option value="4">Floor 4</option>
+                <option value="5">Floor 5</option>
+                <option value="6">Floor 6</option>
+                <option value="7">Floor 7</option>
+                <option value="8">Floor 8</option>
+            </select>
+            <label class="label1" for="filter">Availability:</label>
+            <select id="availabilitySelect">
+                <option value="0">Available</option>
+                <option value="1">Occupied</option>
+            </select>
+            <button id="search-button">Search</button>
+        </div>
+    </div>
+    <div class="center-table">
+        <table id="myTable">
+            <thead>
+              <tr>
+                <th>Building</th>
+                <th>Floor</th>
+                <th>Room Nr</th>
+                <th>Type</th>
+                <th>Availability</th>
+                <th>Information</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <footer id="footer">
+        © <span id="current-year"></span> All rights reserved | Folè Residence
+    </footer>
+    <script src="assets/scripts/api_endpoints_dto.js"></script>
+    <script src="assets/scripts/filter.js"></script>
+    <script src="assets/scripts/signout.js"></script>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
