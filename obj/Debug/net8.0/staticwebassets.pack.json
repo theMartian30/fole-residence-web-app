@@ -1,0 +1,201 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\images\\1.1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\1.1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\images\\1.2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\1.2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\images\\1.3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\1.3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\images\\2.1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\2.1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\images\\2.2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\2.2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\images\\2.3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\2.3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\images\\3.1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\3.1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\images\\3.2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\3.2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\images\\3.3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\3.3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\images\\4.1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\4.1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\images\\4.2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\4.2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\images\\4.3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\4.3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\images\\back.png",
+      "PackagePath": "staticwebassets\\assets\\images\\back.png"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\images\\building.png",
+      "PackagePath": "staticwebassets\\assets\\images\\building.png"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\images\\floor.png",
+      "PackagePath": "staticwebassets\\assets\\images\\floor.png"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\images\\home.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home.png"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\images\\icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon.png"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\images\\sbn.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sbn.png"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\scripts\\filter.js",
+      "PackagePath": "staticwebassets\\assets\\scripts\\filter.js"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\scripts\\floorplan.js",
+      "PackagePath": "staticwebassets\\assets\\scripts\\floorplan.js"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\scripts\\floors.js",
+      "PackagePath": "staticwebassets\\assets\\scripts\\floors.js"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\scripts\\home.js",
+      "PackagePath": "staticwebassets\\assets\\scripts\\home.js"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\scripts\\locstorage.js",
+      "PackagePath": "staticwebassets\\assets\\scripts\\locstorage.js"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\scripts\\login_script.js",
+      "PackagePath": "staticwebassets\\assets\\scripts\\login_script.js"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\scripts\\room.js",
+      "PackagePath": "staticwebassets\\assets\\scripts\\room.js"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\scripts\\searchbn.js",
+      "PackagePath": "staticwebassets\\assets\\scripts\\searchbn.js"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\scripts\\showall.js",
+      "PackagePath": "staticwebassets\\assets\\scripts\\showall.js"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\scripts\\signout.js",
+      "PackagePath": "staticwebassets\\assets\\scripts\\signout.js"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\styles\\style_home.css",
+      "PackagePath": "staticwebassets\\assets\\styles\\style_home.css"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\styles\\style_login.css",
+      "PackagePath": "staticwebassets\\assets\\styles\\style_login.css"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\styles\\style_room.css",
+      "PackagePath": "staticwebassets\\assets\\styles\\style_room.css"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\styles\\stylebp.css",
+      "PackagePath": "staticwebassets\\assets\\styles\\stylebp.css"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\styles\\stylefilter.css",
+      "PackagePath": "staticwebassets\\assets\\styles\\stylefilter.css"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\styles\\stylefp.css",
+      "PackagePath": "staticwebassets\\assets\\styles\\stylefp.css"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\styles\\stylesbn.css",
+      "PackagePath": "staticwebassets\\assets\\styles\\stylesbn.css"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\assets\\styles\\stylesbr.css",
+      "PackagePath": "staticwebassets\\assets\\styles\\stylesbr.css"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\buildingplanA.html",
+      "PackagePath": "staticwebassets\\buildingplanA.html"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\filter.html",
+      "PackagePath": "staticwebassets\\filter.html"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\floor.html",
+      "PackagePath": "staticwebassets\\floor.html"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\home.html",
+      "PackagePath": "staticwebassets\\home.html"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\sbyname.html",
+      "PackagePath": "staticwebassets\\sbyname.html"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\sbyroom.html",
+      "PackagePath": "staticwebassets\\sbyroom.html"
+    },
+    {
+      "Id": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\showroom.html",
+      "PackagePath": "staticwebassets\\showroom.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Fole-Residence-BackEnd.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Fole-Residence-BackEnd.props",
+      "PackagePath": "build\\Fole-Residence-BackEnd.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Fole-Residence-BackEnd.props",
+      "PackagePath": "buildMultiTargeting\\Fole-Residence-BackEnd.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Fole-Residence-BackEnd.props",
+      "PackagePath": "buildTransitive\\Fole-Residence-BackEnd.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

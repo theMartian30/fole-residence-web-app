@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "l7hBpksx8VnVpBHbcaXHkHWmOxiP8Pd4A3UjKyViSGk=",
+  "Source": "Fole-Residence-BackEnd",
+  "BasePath": "_content/Fole-Residence-BackEnd",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Fole-Residence-BackEnd\\wwwroot",
+      "Source": "Fole-Residence-BackEnd",
+      "ContentRoot": "C:\\Users\\hello\\source\\repos\\Fole-Residence-BackEnd\\Fole-Residence-BackEnd\\wwwroot\\",
+      "BasePath": "_content/Fole-Residence-BackEnd",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
